@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = ".next"
+  publish = ".open-next/assets"
 
 [[plugins]]
-package = "@netlify/plugin-nextjs"
+  package = "@opennextjs/netlify"
