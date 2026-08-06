@@ -640,3 +640,87 @@ section { padding: 88px 0; }
   border-radius: 999px;
   color: #2b3350;
 }
+
+/* ---------- Founder note ---------- */
+.founder-note {
+  background: var(--ink-2);
+  border-radius: var(--radius);
+  padding: 44px;
+  position: relative;
+  overflow: hidden;
+}
+.founder-note::before {
+  content: "\201C";
+  position: absolute;
+  top: -10px;
+  left: 24px;
+  font-family: var(--font-display);
+  font-size: 7rem;
+  color: rgba(108,92,231,0.25);
+  line-height: 1;
+}
+.founder-note blockquote {
+  margin: 0 0 24px 0;
+  padding: 0;
+  border: none;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.5;
+  position: relative;
+  z-index: 1;
+}
+.founder-signature { display: flex; align-items: center; gap: 14px; }
+.founder-signature .sig-mark {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  background: var(--grad-transmission);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: #060810;
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+.founder-signature .sig-name { color: #fff; font-weight: 600; font-size: 0.95rem; }
+.founder-signature .sig-title { color: var(--fog); font-size: 0.82rem; }
+
+/* ---------- Trust badges ---------- */
+.trust-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 32px;
+  justify-content: center;
+}
+.trust-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: #2b3350;
+}
+.trust-badge .badge-icon {
+  width: 34px; height: 34px;
+  border-radius: 8px;
+  background: var(--paper-2);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+/* ---------- Industry pills ---------- */
+.industry-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+@media (max-width: 860px) { .industry-grid { grid-template-columns: repeat(2, 1fr); } }
+.industry-pill {
+  background: #fff;
+  border: 1px solid rgba(11,15,28,0.08);
+  border-radius: var(--radius);
+  padding: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: #0b0f1c;
+}
