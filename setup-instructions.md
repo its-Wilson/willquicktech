@@ -34,7 +34,7 @@ This is a static site (plain HTML/CSS/JS) — it can be hosted for free on any o
 
 ## 4. Before you go live
 
-- Replace `https://www.quicktechconsulting.com` throughout (`index.html`, `about.html`, `services.html`, `contact.html`, `sitemap.xml`, `robots.txt`) with your actual domain once you register one.
+- Replace `https://www.itsqtc.com` throughout (`index.html`, `about.html`, `services.html`, `contact.html`, `sitemap.xml`, `robots.txt`) with your actual domain once you register one.
 - Swap `testemail@gmail.com` in `contact.html` for your real contact email.
 - Add a favicon (`favicon.ico`) to the root folder if you want a browser-tab icon.
 - Consider adding Google Search Console + Google Analytics once the domain is live, to track organic traffic and which keywords are bringing people in.

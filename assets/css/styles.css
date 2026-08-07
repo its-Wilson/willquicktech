@@ -724,3 +724,24 @@ section { padding: 88px 0; }
   font-size: 0.92rem;
   color: #0b0f1c;
 }
+
+/* ---------- Hero highlights (compact list, replaces long lede) ---------- */
+.hero-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  margin-bottom: 32px;
+}
+.hero-highlights span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--fog);
+  font-size: 0.92rem;
+}
+.hero-highlights span::before {
+  content: "✓";
+  color: var(--signal);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
