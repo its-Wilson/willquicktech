@@ -18,13 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const action = form.getAttribute("action");
       const submitBtn = form.querySelector("button[type=submit]");
 
-      if (!action || action.includes("YOUR_FORM_ID")) {
-        status.textContent =
-          "Form isn't connected yet — replace YOUR_FORM_ID in contact.html with your Formspree endpoint. See setup-instructions.md.";
-        status.className = "form-status error";
-        return;
-      }
-
       submitBtn.disabled = true;
       submitBtn.textContent = "Sending...";
 
