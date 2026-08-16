@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Account Takeovers: When Your Copilot Account Gets Hijacked | Quick Tech Consulting</title>
+<meta name="description" content="Attackers are now hijacking AI assistant accounts like Microsoft Copilot to authorize fraudulent requests from a real, trusted account. Here's how it works and how to prevent it.">
+<meta name="keywords" content="AI account takeover, Microsoft Copilot security, Copilot account hijacked, AI CEO fraud, conditional access Microsoft 365, AI assistant security risk">
+<link rel="canonical" href="https://www.quicktechconsulting.com/blog/ai-account-takeovers-copilot-security.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "AI Account Takeovers: When Your Copilot Account Gets Hijacked",
+  "datePublished": "2026-08-14",
+  "dateModified": "2026-08-14",
+  "author": { "@type": "Organization", "name": "Quick Tech Consulting" },
+  "publisher": { "@type": "Organization", "name": "Quick Tech Consulting" }
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="../index.html" class="brand">
+      <span class="brand-mark">QTC</span>
+      Quick Tech Consulting
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../services.html">Services</a></li>
+      <li><a href="index.html" class="active">Blog</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="../contact.html" class="btn btn-primary">Schedule Free Assessment</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="dark-section page-hero">
+    <div class="container article-wrap">
+      <p class="eyebrow">AI for Business &middot; Cybersecurity</p>
+      <h1>AI Account Takeovers: When Your Copilot Account Gets Hijacked</h1>
+      <p>The newest twist on CEO-impersonation fraud doesn't come from a spoofed email — it comes from a real, compromised AI assistant account.</p>
+    </div>
+  </section>
+
+  <section class="section-light">
+    <div class="container article-wrap">
+      <p class="article-meta">AI for Business &middot; Cybersecurity &middot; 6 min read &middot; August 2026</p>
+
+      <div class="prose">
+        <p>Business email compromise (BEC) used to mean a spoofed or lookalike email address impersonating an executive. The newest variation is more dangerous, because there's no spoofing involved at all: attackers compromise a real, legitimate AI assistant account — like Microsoft Copilot — and use its genuine, trusted access to help authorize fraudulent requests. Recent security incidents have involved exactly this pattern: hijacked Copilot accounts used to help push through CEO-impersonation payment fraud, from an account your systems have no reason to distrust.</p>
+
+        <h2>Why this is a meaningfully different problem</h2>
+        <p>A phishing email arriving from an unfamiliar address can be caught by a filter, or spotted by a trained employee. An action taken from a legitimate, authenticated Copilot account tied to a real employee doesn't trigger the same defenses — because as far as your systems are concerned, it <em>is</em> a real employee. The compromise happens one step upstream: the attacker didn't fake the identity, they took over the account it belongs to.</p>
+
+        <h2>How these account takeovers typically happen</h2>
+        <ul>
+          <li><strong>Reused or weak passwords</strong> on the underlying Microsoft 365 account, discovered through unrelated data breaches.</li>
+          <li><strong>Phishing targeting the credentials themselves</strong> — including AI-generated phishing emails specifically crafted to harvest Microsoft 365 logins.</li>
+          <li><strong>Missing multifactor authentication (MFA),</strong> which remains the single most common gap that turns a stolen password into full account access.</li>
+          <li><strong>Session token theft,</strong> where malware steals an already-authenticated session, bypassing the need for a password or MFA prompt entirely.</li>
+          <li><strong>Overly broad AI tool permissions,</strong> where an AI assistant has been granted more access — to email, files, or approval workflows — than its actual use case requires.</li>
+        </ul>
+
+        <h2>What makes AI assistants an attractive target specifically</h2>
+        <p>AI assistants like Copilot are often deeply integrated — connected to email, calendar, documents, and sometimes approval workflows — specifically because that integration is what makes them useful. That same integration is exactly what makes a compromised AI account so valuable to an attacker: one takeover potentially grants visibility and action across several connected systems at once, rather than just a single inbox.</p>
+
+        <blockquote>The account wasn't impersonated. It was taken over. That distinction is why traditional phishing defenses don't catch this pattern.</blockquote>
+
+        <h2>How to actually prevent this</h2>
+        <ul>
+          <li><strong>Enforce MFA on every Microsoft 365 and AI assistant account</strong> — no exceptions for "convenience" accounts.</li>
+          <li><strong>Use Conditional Access policies</strong> to block or flag logins from unfamiliar devices, locations, or impossible-travel patterns, even when the correct credentials were used.</li>
+          <li><strong>Scope AI assistant permissions deliberately.</strong> Grant access to what the tool actually needs, and review that scope periodically rather than accepting default permissions indefinitely.</li>
+          <li><strong>Require out-of-band verification for financial requests</strong> — regardless of which trusted internal system or account the request appears to come from.</li>
+          <li><strong>Monitor for anomalous account behavior,</strong> not just failed login attempts — a legitimate account suddenly accessing unusual files or approving unusual requests is a signal worth catching.</li>
+          <li><strong>Have a plan for account compromise specifically,</strong> not just device compromise — who gets notified, and how access gets revoked quickly, if an account is suspected to be taken over.</li>
+        </ul>
+
+        <h2>The bottom line</h2>
+        <p>As AI assistants get more deeply integrated into daily business operations, the accounts behind them become higher-value targets — not because the AI itself is insecure, but because a compromised account now carries more trusted access than ever before. The fix isn't avoiding AI tools; it's securing the accounts and permissions behind them with the same discipline you'd apply to any other privileged access.</p>
+
+        <div class="article-cta">
+          <h3>Rolling out Copilot or another AI assistant?</h3>
+          <p>We help Brevard County businesses configure Microsoft 365, Azure, and AI tools with the access controls and MFA policies that actually prevent this kind of takeover.</p>
+          <a href="../contact.html" class="btn btn-primary">Schedule Free Assessment</a>
+        </div>
+      </div>
+
+      <div class="article-tags">
+        <span>AI Security</span><span>Microsoft Copilot</span><span>Account Takeover</span><span>MFA</span><span>Conditional Access</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <a href="../index.html" class="brand" style="color:#fff;">
+        <span class="brand-mark">QTC</span>
+        Quick Tech Consulting
+      </a>
+      <div class="footer-links">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <a href="../services.html">Services</a>
+        <a href="index.html">Blog</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Quick Tech Consulting. All rights reserved.</span>
+      <span class="status-pill">Systems monitored 24/7</span>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="../assets/js/script.js"></script>
+</body>
+</html>
